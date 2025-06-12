@@ -16,13 +16,13 @@ const certos = document.querySelector(".acertos");
 
 /* erros */
 const erro = document.querySelector(".erros")
-/* questão */
-let questaoIndex = Math.floor(Math.random() * 21);
-console.log(questaoIndex)
 
 fetch('data/dados.json')
     .then(response => response.json())
     .then(data => {
+        /* questão */
+        let questaoIndex = 0;
+
         carregarQuestao(questaoIndex, data);
 
         respostas.forEach(botao => {
@@ -80,11 +80,6 @@ fetch('data/dados.json')
     });
 
 function carregarQuestao(index, data) {
-    if (index >= data.questoes.length) {
-        index -= 0;
-    } else if (index < 0) {
-        index = data.questoes.length - 1;
-    }
 
     questaoIndex = index;
 
