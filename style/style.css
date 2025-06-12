@@ -1,0 +1,74 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(145deg, #ffe6e6, #ffcccc);
+    color: #4b1e1e;
+    padding: 2rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: #b33a3a;
+}
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.8rem;
+    width: 100%;
+    max-width: 900px;
+}
+
+.game-card {
+    background: #fff0f0;
+    border: 3px solid #d44b4b;
+    border-radius: 18px;
+    padding: 1.8rem;
+    box-shadow: 0 0 15px rgba(212, 75, 75, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-card h2 {
+    margin-bottom: 1rem;
+    color: #a93131;
+}
+
+.game-card p {
+    flex-grow: 1;
+    color: #5c2e2e;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.game-card button {
+    background-color: #d44b4b;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 0.7rem 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+.game-card button:hover {
+    background-color: #a93131;
+    transform: scale(1.05);
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}

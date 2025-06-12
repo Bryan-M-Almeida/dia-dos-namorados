@@ -1,0 +1,214 @@
+{
+    "questoes": [
+        {
+            "pergunta": "Qual é o apelido carinhoso que você mais usa pra mim?",
+            "alternativas": [
+                "Docinho",
+                "Meu amor",
+                "neném",
+                "preto/pretinho"
+            ],
+            "resposta": "preto/pretinho"
+        },
+        {
+            "pergunta": "em que ano foi o nosso primeiro beijo?",
+            "alternativas": [
+                "2021",
+                "2022",
+                "2023",
+                "2024"
+            ],
+            "resposta": "2022"
+        },
+        {
+            "pergunta": "Qual é a música que sempre me lembra de você?",
+            "alternativas": [
+                "vampiro de madureira",
+                "Sorriso resplandecente",
+                "Katon",
+                "Anos Luz"
+            ],
+            "resposta": "Sorriso resplandecente"
+        },
+        {
+            "pergunta": "Qual foi o lugar do nosso primeiro encontro?",
+            "alternativas": [
+                "Café perto da praça",
+                "Parque da cidade",
+                "Cinema",
+                "Praia"
+            ],
+            "resposta": "Cinema"
+        },
+        {
+            "pergunta": "Qual é a coisa que você sempre faz que me faz sorrir?",
+            "alternativas": [
+                "beijinhos",
+                "carinho",
+                "Piadas bobas",
+                "sorrir"
+            ],
+            "resposta": "sorrir"
+        },
+        {
+            "pergunta": "O que eu mais amo em você?",
+            "alternativas": [
+                "Sorriso",
+                "Olhos",
+                "Cabelo",
+                "Voz"
+            ],
+            "resposta": "Sorriso"
+        },
+        {
+            "pergunta": "Qual nosso programa favorito juntos?",
+            "alternativas": [
+                "Maratona de filmes",
+                "Passeio no parque",
+                "Cozinhar juntos",
+                "Jogar videogame"
+            ],
+            "resposta": "Cozinhar juntos"
+        },
+        {
+            "pergunta": "Qual é meu doce preferido?",
+            "alternativas": [
+                "Chocolate",
+                "Sorvete",
+                "Brigadeiro",
+                "Pudim"
+            ],
+            "resposta": "Brigadeiro"
+        },
+        {
+            "pergunta": "Qual foi a viagem mais inesquecível que fizemos?",
+            "alternativas": [
+                "SP",
+                "UFRJ",
+                "Buenos Aires",
+                "Argentina"
+            ],
+            "resposta": "Argentina"
+        },
+        {
+            "pergunta": "Qual dessas frases mais combina comigo?",
+            "alternativas": [
+                "Te amo pra sempre",
+                "Você é minha vida",
+                "Somos feitos um pro outro",
+                "Você é meu mundo"
+            ],
+            "resposta": "Você é meu mundo"
+        },
+        {
+            "pergunta": "O que eu mais gosto que você faça quando estamos juntos?",
+            "alternativas": [
+                "Conversar",
+                "Abraçar",
+                "Cozinhar",
+                "Assistir séries"
+            ],
+            "resposta": "Abraçar"
+        },
+        {
+            "pergunta": "Qual minha cor favorita?",
+            "alternativas": [
+                "Azul",
+                "Vermelho",
+                "Verde",
+                "Preto"
+            ],
+            "resposta": "Preto"
+        },
+        {
+            "pergunta": "Qual meu filme favorito?",
+            "alternativas": [
+                "Spider-Man No Way Home",
+                "Deadpool 3",
+                "Karate Kid",
+                "Toy Story 3"
+            ],
+            "resposta": "Deadpool 3"
+        },
+        {
+            "pergunta": "Qual é a minha série favorita?",
+            "alternativas": [
+                "Eu, a patro e as crianças",
+                "Um maluco no pedaço",
+                "Cobra Kai",
+                "B99"
+            ],
+            "resposta": "B99"
+        },
+        {
+            "pergunta": "Qual é o meu desenho favorito?",
+            "alternativas": [
+                "O incrível mundo de gumball",
+                "Hora de aventura",
+                "Apenas um show",
+                "Ben 10"
+            ],
+            "resposta": "Ben 10"
+        },
+        {
+            "pergunta": "Qual é o meu anime favorito?",
+            "alternativas": [
+                "Death Note",
+                "One piece",
+                "Dragon Ball",
+                "Naruto"
+            ],
+            "resposta": "Death Note"
+        },
+        {
+            "pergunta": "Qual é o meu jogo favorito?",
+            "alternativas": [
+                "Elden Ring",
+                "Sekiro",
+                "God of war",
+                "Red dead redemption 2"
+            ],
+            "resposta": "God of war"
+        },
+        {
+            "pergunta": "Qual é o meu gow favorito?",
+            "alternativas": [
+                "God of war ascesion",
+                "God of war 2018",
+                "God of war 3",
+                "God of war ragnarok"
+            ],
+            "resposta": "God of war ragnarok"
+        },
+    {
+        "pergunta": "Qual é o meu jogo da nintendo favorito?",
+        "alternativas": [
+            "Zelda Tear of the kingdom",
+            "Zelda Breath of the wild",
+            "Mario Oddyssey",
+            "Super smash bros. ultimate"
+        ],
+        "resposta": "Zelda tears of the kingdom"
+    },
+    {
+        "pergunta": "O que eu nunca deixo de fazer todo dia?",
+        "alternativas": [
+            "te beijar",
+            "estudar",
+            "jogar",
+            "comer"
+        ],
+        "resposta": "Te beijar"
+    },
+    {
+        "pergunta": "Qual é o meu hobby favorito?",
+        "alternativas": [
+            "Jogar videogame",
+            "Cozinhar",
+            "Desenhar",
+            "Praticar esportes"
+        ],
+        "resposta": "Jogar videogame"
+    }
+]
+}

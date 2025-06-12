@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(145deg, #ffdee9, #b5fffc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #d60087;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.enigma-container {
+    background-color: #fff;
+    padding: 2.5rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+}
+
+input {
+    padding: 16px 14px;
+    border-radius: 12px;
+    border: 1.5px solid #ccc;
+    width: 85%;
+    max-width: 360px;
+    margin: 14px 0;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 16px 24px;
+    border: none;
+    background-color: #ff69b4;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 14px;
+    cursor: pointer;
+    margin-top: 14px;
+    font-size: 1.3rem;
+    transition: background-color 0.3s ease;
+    width: auto;
+    min-width: 200px;
+}
+
+button:hover {
+    background-color: #e2559d;
+}
+
+.carta {
+    margin-top: 40px;
+    padding: 24px 28px;
+    background-color: #fff0f5;
+    border-left: 7px solid #ff69b4;
+    display: none;
+    animation: fadeIn 1s forwards;
+    font-size: 1.4rem;
+    word-wrap: break-word;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.erro {
+    color: red;
+    font-size: 1.1rem;
+    margin-top: 12px;
+}
+
+.voltar-btn {
+    background-color: #4b1448;
+    color: #fff;
+    margin-top: 28px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 12px;
+    font-weight: 700;
+    transition: background-color 0.6s ease;
+    font-size: 1.3rem;
+    min-width: 220px;
+}
+
+.voltar-btn:hover {
+    background-color: #ad2496;
+}
+
+/* Responsividade */
+
+@media (max-width: 480px) {
+    .enigma-container {
+        padding: 3rem 3.5rem;
+        max-width: 95vw;
+    }
+
+    input {
+        width: 95%;
+        max-width: none;
+        font-size: 1.4rem;
+        padding: 18px 16px;
+    }
+
+    button,
+    .voltar-btn {
+        width: 95%;
+        font-size: 1.5rem;
+        padding: 18px 20px;
+        min-width: unset;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    .carta {
+        font-size: 1.6rem;
+        padding: 24px 26px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .enigma-container {
+        max-width: 90vw;
+    }
+
+    input {
+        max-width: 320px;
+    }
+}
